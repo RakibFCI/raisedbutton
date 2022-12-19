@@ -49,11 +49,9 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Text(msg,style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
                   SizedBox(height: 10,),
-                  RaisedButton(
+                  ElevatedButton(
                     child: Text("Click",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
-                      color: Colors.deepPurple,
-                      textColor: Colors.yellow,
-                      padding: EdgeInsets.all(20),
+
                       onPressed: _changeText),
                 ],
               ),
