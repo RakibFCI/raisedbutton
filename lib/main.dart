@@ -53,6 +53,11 @@ class _HomePageState extends State<HomePage> {
                     child: Text("Click",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
 
                       onPressed: _changeText),
+                  SizedBox(height: 10,),
+                  ElevatedButton(
+                      child: Text("Click",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+
+                      onPressed: _changeText),
                 ],
               ),
             ),
